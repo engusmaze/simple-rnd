@@ -3,8 +3,8 @@ name = "simple-rnd"
 version = "0.9.0"
 edition = "2021"
 
-repository = "https://github.com/engusmaze/fast-noise-lite-rs"
-homepage = "https://github.com/engusmaze/fast-noise-lite-rs"
+repository = "https://github.com/engusmaze/simple-rnd"
+homepage = "https://github.com/engusmaze/simple-rnd"
 authors = ["EngusMaze"]
 license = "Apache-2.0 OR MIT"
 description = "Tiny random number generation library"
