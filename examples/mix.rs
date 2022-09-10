@@ -1,0 +1,12 @@
+use simple_rnd::Rand;
+
+fn main() {
+    let mut rand = Rand::new(0); // The parameter is the starting value (seed)
+    let string = "Some test string";
+    for byte in string.as_bytes() {
+        rand.mix(*byte as u64);
+    }
+    for _ in 0..16 {
+        println!("{}", rand.next()); // rand.next() generates next u64 number
+    }
+}
